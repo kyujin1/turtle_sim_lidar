@@ -60,7 +60,7 @@ def start_logic():
             conn.commit()
             print(f" DB 저장 완료: {current_action} (ID: {cursor.lastrowid})")
         except Exception as db_err:
-            print(f"⚠ DB 저장 중 오류: {db_err}")
+            print(f" DB 저장 중 오류: {db_err}")
 
         cmd_vel_talker.publish(roslibpy.Message(move_msg))
 

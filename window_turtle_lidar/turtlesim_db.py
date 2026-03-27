@@ -30,7 +30,7 @@ print(df.head())  # 상위 5개 행 출력
 print(f" 총 데이터 개수: {len(df)}행, 컬럼 개수: {len(df.columns)}개")
 
 df.to_csv('lidar_dataset_final.csv', index=False)
-print("💾 'lidar_dataset_final.csv' 저장 성공")
+print(" 'lidar_dataset_final.csv' 저장 성공")
 
 cursor.close()
 conn.close()
