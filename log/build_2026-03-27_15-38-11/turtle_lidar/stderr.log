@@ -1,0 +1,5 @@
+  File "/home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar/lidar_publisher.py", line 17
+    "CLEAR_PATH":  {"center": 0, "width": 0, "dist": 3.5} 음
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

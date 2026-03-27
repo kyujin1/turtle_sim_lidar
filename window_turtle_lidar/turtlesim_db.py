@@ -24,9 +24,9 @@ for r in rows:
 column_names = [f'dist_{i}' for i in range(360)] + ['action']
 df = pd.DataFrame(all_data, columns=column_names)
 
-# 5. 결과 확인 및 저장
+확인 및 저장
 print(" 변환 완료")
-print(df.head())  # 상위 5개 행 출력
+print(df.head())  행 출력
 print(f" 총 데이터 개수: {len(df)}행, 컬럼 개수: {len(df.columns)}개")
 
 df.to_csv('lidar_dataset_final.csv', index=False)

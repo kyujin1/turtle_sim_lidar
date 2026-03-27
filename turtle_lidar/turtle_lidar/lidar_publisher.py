@@ -14,7 +14,7 @@ class LidarPatternPublisher(Node):
             "FRONT_BLOCK": {"center": 0, "width": 40, "dist": 0.5},
             "LEFT_WALL":   {"center": 90, "width": 60, "dist": 0.7},
             "RIGHT_WALL":  {"center": 270, "width": 60, "dist": 0.7},
-            "CLEAR_PATH":  {"center": 0, "width": 0, "dist": 3.5} 음
+            "CLEAR_PATH":  {"center": 0, "width": 0, "dist": 3.5}
         }
         
         self.get_logger().info('Lidar Scenario Publisher Started!')
