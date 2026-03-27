@@ -1,0 +1,11 @@
+{
+  "angle_min": 0.0,
+  "angle_max": 6.265732765,
+  "angle_increment": 0.0174532,
+  "range_min": 0.12,
+  "range_max": 3.5,
+  "ranges": [1.25, 1.24, 1.28, 1.30, 1.33, 3.50, 3.50, 0.45, 0.46, 0.50],
+  "intensities": [100, 100, 100, 100, 100],
+  "frame_id": "laser",
+  "timestamp": 1732512345.1234567
+}

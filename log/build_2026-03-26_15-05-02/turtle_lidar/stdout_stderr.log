@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/turtle_lidar/turtle_lidar.egg-info
+writing ../build/turtle_lidar/turtle_lidar.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_lidar/turtle_lidar.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_lidar/turtle_lidar.egg-info/entry_points.txt
+writing requirements to ../build/turtle_lidar/turtle_lidar.egg-info/requires.txt
+writing top-level names to ../build/turtle_lidar/turtle_lidar.egg-info/top_level.txt
+writing manifest file '../build/turtle_lidar/turtle_lidar.egg-info/SOURCES.txt'
+reading manifest file '../build/turtle_lidar/turtle_lidar.egg-info/SOURCES.txt'
+writing manifest file '../build/turtle_lidar/turtle_lidar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kyujin/lidar_ws/src/build/turtle_lidar/build
+creating /home/kyujin/lidar_ws/src/build/turtle_lidar/build/lib
+creating /home/kyujin/lidar_ws/src/build/turtle_lidar/build/lib/turtle_lidar
+copying turtle_lidar/lidar_publisher.py -> /home/kyujin/lidar_ws/src/build/turtle_lidar/build/lib/turtle_lidar
+copying turtle_lidar/__init__.py -> /home/kyujin/lidar_ws/src/build/turtle_lidar/build/lib/turtle_lidar
+running install
+running install_lib
+creating /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar
+copying /home/kyujin/lidar_ws/src/build/turtle_lidar/build/lib/turtle_lidar/lidar_publisher.py -> /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar
+copying /home/kyujin/lidar_ws/src/build/turtle_lidar/build/lib/turtle_lidar/__init__.py -> /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar
+byte-compiling /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar/lidar_publisher.py to lidar_publisher.cpython-310.pyc
+byte-compiling /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kyujin/lidar_ws/src/install/turtle_lidar/share/ament_index
+creating /home/kyujin/lidar_ws/src/install/turtle_lidar/share/ament_index/resource_index
+creating /home/kyujin/lidar_ws/src/install/turtle_lidar/share/ament_index/resource_index/packages
+copying resource/turtle_lidar -> /home/kyujin/lidar_ws/src/install/turtle_lidar/share/ament_index/resource_index/packages
+copying package.xml -> /home/kyujin/lidar_ws/src/install/turtle_lidar/share/turtle_lidar
+running install_egg_info
+Copying ../build/turtle_lidar/turtle_lidar.egg-info to /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_pub script to /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/turtle_lidar
+writing list of installed files to '/home/kyujin/lidar_ws/src/build/turtle_lidar/install.log'

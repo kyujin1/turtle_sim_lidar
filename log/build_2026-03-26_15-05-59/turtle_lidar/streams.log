@@ -1,0 +1,21 @@
+[0.594s] Invoking command in '/home/kyujin/lidar_ws/src/turtle_lidar': PYTHONPATH=/home/kyujin/lidar_ws/src/build/turtle_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_lidar build --build-base /home/kyujin/lidar_ws/src/build/turtle_lidar/build install --record /home/kyujin/lidar_ws/src/build/turtle_lidar/install.log --single-version-externally-managed install_data
+[0.817s] running egg_info
+[0.817s] writing ../build/turtle_lidar/turtle_lidar.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../build/turtle_lidar/turtle_lidar.egg-info/dependency_links.txt
+[0.818s] writing entry points to ../build/turtle_lidar/turtle_lidar.egg-info/entry_points.txt
+[0.818s] writing requirements to ../build/turtle_lidar/turtle_lidar.egg-info/requires.txt
+[0.818s] writing top-level names to ../build/turtle_lidar/turtle_lidar.egg-info/top_level.txt
+[0.819s] reading manifest file '../build/turtle_lidar/turtle_lidar.egg-info/SOURCES.txt'
+[0.820s] writing manifest file '../build/turtle_lidar/turtle_lidar.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.821s] running install
+[0.821s] running install_lib
+[0.822s] running install_data
+[0.822s] running install_egg_info
+[0.824s] removing '/home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../build/turtle_lidar/turtle_lidar.egg-info to /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages/turtle_lidar-0.0.0-py3.10.egg-info
+[0.825s] running install_scripts
+[0.843s] Installing lidar_pub script to /home/kyujin/lidar_ws/src/install/turtle_lidar/lib/turtle_lidar
+[0.843s] writing list of installed files to '/home/kyujin/lidar_ws/src/build/turtle_lidar/install.log'
+[0.860s] Invoked command in '/home/kyujin/lidar_ws/src/turtle_lidar' returned '0': PYTHONPATH=/home/kyujin/lidar_ws/src/build/turtle_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyujin/lidar_ws/src/install/turtle_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_lidar build --build-base /home/kyujin/lidar_ws/src/build/turtle_lidar/build install --record /home/kyujin/lidar_ws/src/build/turtle_lidar/install.log --single-version-externally-managed install_data
