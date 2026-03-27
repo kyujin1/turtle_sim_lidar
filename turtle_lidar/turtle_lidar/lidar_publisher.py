@@ -10,8 +10,6 @@ class LidarPatternPublisher(Node):
         self.publisher_ = self.create_publisher(LaserScan, '/turtle1/scan', 10)
         self.timer = self.create_timer(2.0, self.timer_callback)
 
-        # 고정 패턴 정의 (딕셔너리)
-        # "이름": (중심각도, 벽의너비, 벽까지의거리)
         self.scenarios = {
             "FRONT_BLOCK": {"center": 0, "width": 40, "dist": 0.5},
             "LEFT_WALL":   {"center": 90, "width": 60, "dist": 0.7},
@@ -26,20 +24,16 @@ class LidarPatternPublisher(Node):
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.header.frame_id = 'laser_frame'
         
-        # 기본 라이다 설정
         msg.angle_min = 0.0
         msg.angle_max = math.radians(359)
         msg.angle_increment = math.radians(1)
         msg.range_min = 0.12
         msg.range_max = 3.5
 
-        # 1. 모든 범위를 최대 거리(3.5m)로 초기화
         ranges = [3.5 for _ in range(360)]
 
-        # 2. 딕셔너리에서 무작위 시나리오 선택
         name, s = random.choice(list(self.scenarios.items()))
         
-        # 3. 선택된 범위(Index)에 고정된 거리값 주입
         half_w = s['width'] // 2
         if half_w > 0:
             for i in range(-half_w, half_w + 1):
